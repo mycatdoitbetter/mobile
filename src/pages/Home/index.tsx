@@ -21,7 +21,7 @@ const Home = () => {
       </View>
 
       <View style={styles.footer}>
-        <RectButton style={styles.button} onPress={() => navigate("Detail")}>
+        <RectButton style={styles.button} onPress={() => navigate("Points")}>
           <View style={styles.buttonIcon}>
             <Text>
               <Icon name="arrow-right" color="#fFF" size={24} />
